@@ -27,9 +27,9 @@ MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://pubzelo:pubzelo@cluster0.jva
 DB_NAME      = os.getenv("DB_NAME", "pubzelo")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "7660916897").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
-LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
+LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1003946714192"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
