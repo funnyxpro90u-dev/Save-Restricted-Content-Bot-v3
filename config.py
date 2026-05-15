@@ -20,11 +20,11 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
-DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
+API_ID       = os.getenv("API_ID", "30296254")
+API_HASH     = os.getenv("API_HASH", "c2b5306f4ccd2d795405a026c10b4c62")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "8873185789:AAGwCGfBns_404I5v-6b1wqvSHBE2-TZars")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://pubzelo:pubzelo@cluster0.jvawywm.mongodb.net")
+DB_NAME      = os.getenv("DB_NAME", "pubzelo")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
